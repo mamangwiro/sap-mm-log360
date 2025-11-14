@@ -64,7 +64,11 @@ This project showcases a full SAP MM Functional Consultant skillset, including:
 5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
 6. [Future Enhancements](#6-future-enhancements)
 
----
+## 📂 Repository Structure
+
+The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM Procure-to-Pay (P2P) project.
+
+
 
 ## 2. Business Context
 
