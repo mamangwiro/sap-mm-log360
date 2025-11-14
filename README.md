@@ -14,7 +14,15 @@ The focus is on:
 
 > ⚠️ Note: This is a documentation and design project. No SAP access is required to review it, but the steps are written so they could be executed in an SAP S/4HANA or ECC sandbox.
 
----
+---## 📘 Table of Contents
+
+1. Overview  
+2. Business Context  
+3. Repository Structure  
+4. Documentation Links  
+5. How to Navigate This Project  
+6. Future Enhancements  
+
 
 ## 2. Business Context
 
