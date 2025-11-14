@@ -24,7 +24,36 @@ The focus is on:
 
 > ⚠️ **Note:** This is a documentation and design project. No SAP access is required to review, but the steps are written so they could be executed in SAP S/4HANA or ECC.
 
----
+## 🧠 Skills Demonstrated
+
+This project showcases a full SAP MM Functional Consultant skillset, including:
+
+### 🔧 SAP MM Configuration & Functional Skills
+- Material Master configuration (MM01/MM02)
+- Vendor Master setup (BP transaction)
+- Purchase Requisition → Purchase Order flow
+- Release strategy configuration
+- Source determination & info records
+- Pricing conditions & schema logic
+- Goods Receipt (MIGO) & Inventory management
+- Invoice Verification (MIRO)
+
+### 📊 Business Analysis & Requirements Mapping
+- Translating business pain points into SAP MM solutions
+- Process mapping using BPMN-style flow diagrams
+- Stakeholder requirement gathering
+- Gap analysis between AS-IS and TO-BE processes
+
+### 🧪 Testing & Validation
+- Creating detailed test scripts and acceptance criteria
+- Validating configuration outcomes through scenario testing
+- Ensuring traceability from requirements → config → test case
+
+### 🗂 Documentation & Project Delivery
+- Clear repository structure for professional documentation
+- Well-defined configuration notes and design decisions
+- Realistic P2P end-to-end case study modelling a real client
+
 
 ## 📘 Table of Contents  
 
