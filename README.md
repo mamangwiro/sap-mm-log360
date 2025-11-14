@@ -67,6 +67,21 @@ This project showcases a full SAP MM Functional Consultant skillset, including:
 ## 📂 Repository Structure
 
 The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM Procure-to-Pay (P2P) project.
+```md
+sap-mm-log360/
+├── 📁 docs/
+│   ├── 📁 tradeoffs/
+│   │   └── design_tradeoffs.md
+│   │
+│   ├── 📁 tests/
+│   │   └── p2p_test_cases.md
+│   │
+│   ├── 📁 diagrams/
+│   │   └── README.md                 # Describes and lists all P2P process diagrams
+│   │
+│   └── README.md                     # Index and explanation of all project documents
+│
+└── README.md                         # Main project documentation
 
 
 
@@ -89,19 +104,3 @@ To design a **scalable SAP MM Procure-to-Pay process** that solves these operati
 
 ---
 
-## 3. Repository Structure
-
-sap-mm-log360/
-├── 📁 docs/
-│   ├── 📁 tradeoffs/
-│   │   └── design_tradeoffs.md
-│   │
-│   ├── 📁 tests/
-│   │   └── p2p_test_cases.md
-│   │
-│   ├── 📁 diagrams/
-│   │   └── README.md                 # Describes and lists all P2P process diagrams
-│   │
-│   └── README.md                     # Index and explanation of all project documents
-│
-└── README.md                         # Main project documentation
