@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-SAP%20MM%20P2P-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Procure%20to%20Pay%20(P2P)-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Role-SAP%20MM%20Functional%20Consultant-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docs-Updated-critical?style=for-the-badge" />
+</p>
+
+
 # SAP MM Procure-to-Pay Project – Log360 Scenario
 
 ## 1. Overview
