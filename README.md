@@ -104,3 +104,5 @@ The repository is organised to clearly separate requirements, design decisions, 
  ┃ ┗ 📄 README.md          # Index of project documentation
  ┃
  ┗ 📄 README.md            # Main project documentation
+</details> ```
+
