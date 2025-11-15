@@ -27,71 +27,67 @@ The focus is on:
 
 ## 🧠 Skills Demonstrated
 
-This project showcases a full SAP MM Functional Consultant skillset.
-
 ### 🔧 SAP MM Configuration & Functional Skills
-- Material Master configuration (MM01/MM02)  
-- Vendor Master setup (BP transaction)  
-- Purchase Requisition → Purchase Order flow  
-- Release strategy configuration  
-- Source determination & info records  
-- Pricing conditions & schema logic  
-- Goods Receipt (MIGO) & inventory management  
-- Invoice Verification (MIRO)  
+- Material Master configuration (MM01/MM02)
+- Vendor Master setup (BP)
+- PR → PO flow with release strategy
+- Source determination & info records
+- Pricing schema configuration
+- Goods Receipt (MIGO)
+- Invoice Verification (MIRO)
 
 ### 📊 Business Analysis & Requirements Mapping
-- Translating business pain points into SAP MM solutions  
-- Process mapping using BPMN-style flow diagrams  
-- Stakeholder requirement gathering  
-- Gap analysis between AS-IS and TO-BE processes  
+- Translating pain points into SAP solutions
+- BPMN-style process diagrams
+- Stakeholder requirement mapping
+- AS-IS vs TO-BE gap analysis
 
 ### 🧪 Testing & Validation
-- Creating detailed test scripts and acceptance criteria  
-- Validating configuration outcomes through scenario testing  
-- Ensuring traceability from requirements → config → test case  
+- Writing test scripts
+- Acceptance criteria definition
+- Scenario-based validation
 
 ### 🗂 Documentation & Project Delivery
-- Clear repository structure for professional documentation  
-- Well-defined configuration notes and design decisions  
-- Realistic P2P end-to-end case study modelling a real SAP project  
+- Clean repository structure
+- Professional SAP documentation flow
+- Configuration notes & design decisions
 
 ---
 
-## 📘 Table of Contents  
+## 📘 Table of Contents
 
 1. [Overview](#1-overview)  
 2. [Business Context](#2-business-context)  
-3. [Repository Structure](#3-📁-repository-structure)  
+3. [Repository Structure](#3-repository-structure)  
 4. [Documentation Links](#4-documentation-links)  
 5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
-6. [Future Enhancements](#6-future-enhancements)  
+6. [Future Enhancements](#6-future-enhancements)
 
 ---
 
-## 2. Business Context
+# 2. Business Context
 
-### **2.1 Company**  
-**Log360 T/A Karukweza EcoFarm**
+### 2.1 Company  
+**Log360 T/A Karukweza Ecofarm**
 
-### **2.2 Industry**  
-Agriculture, farming, and logistics
+### 2.2 Industry  
+**Agriculture, farming, and logistics**
 
-### **2.3 Pain Points**
-- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)  
-- No visibility of stock levels across storage locations  
-- Repeated stockouts of critical inputs (feed, medicines)  
-- No vendor performance tracking  
-- High losses due to poor inventory reconciliation  
+### 2.3 Pain Points
+- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
+- No visibility of stock across locations
+- Frequent stockouts (feed, medicines)
+- No vendor performance tracking
+- Losses from poor inventory reconciliation
 
-### **2.4 Project Goal**
-
-To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency for Log360.
+### 2.4 Project Goal
+Design a **scalable SAP MM P2P process** to improve procurement efficiency and eliminate operational bottlenecks.
 
 ---
 
-## 3. 📁 Repository Structure
+# 3. 📁 Repository Structure
 
-The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM P2P Project.
+The repository is organised to clearly separate requirements, design decisions, test cases, and diagrams.
 
 <details>
 <summary><strong>📁 Click to expand repository structure</strong></summary>
