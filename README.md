@@ -64,7 +64,27 @@ This project showcases a full SAP MM Functional Consultant skillset, including:
 5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
 6. [Future Enhancements](#6-future-enhancements)
 
-## 📁 Repository Structure
+## 2. Business Context
+
+### 2.1 Company:** Log360 T/A Karukweza EcoFarm  
+
+--
+
+### 2.2 Industry:** Agriculture, farming, and logistics  
+
+### 2.3  Pain Points:
+
+- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
+- No visibility of stock levels across storage locations
+- Repeated stockouts of critical inputs (feed, medicines)
+- No vendor performance tracking
+- High losses due to poor inventory reconciliation
+
+### 2.4  Project Goal
+
+To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency for Log360.
+
+## 3.📁 Repository Structure
 
 The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM Procure-to-Pay (P2P) project.
 <details>
@@ -83,24 +103,14 @@ The repository is organised to clearly separate requirements, design, test cases
  ┃
  ┗ 📄 README.md            # Main project documentation
 
-
-
-## 2. Business Context
-
-**Company:** Log360 T/A Karukweza EcoFarm  
-**Industry:** Agriculture, farming, and logistics  
-
-### Pain Points:
-
-- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
-- No visibility of stock levels across storage locations
-- Repeated stockouts of critical inputs (feed, medicines)
-- No vendor performance tracking
-- High losses due to poor inventory reconciliation
-
-### Project Goal
-
-To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency for Log360.
+---
+## 4. Documentation Links
 
 ---
+
+## 5. How to Navigate This Project
+
+---
+
+## 6. Future Enhancements
 
