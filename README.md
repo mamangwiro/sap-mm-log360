@@ -29,59 +29,59 @@ The focus is on:
 
 ### 🔧 SAP MM Configuration & Functional Skills
 - Material Master configuration (MM01/MM02)
-- Vendor Master setup (BP)
-- PR → PO flow with release strategy
+- Vendor Master setup (BP transaction)
+- Purchase Requisition → Purchase Order flow
+- Release strategy configuration
 - Source determination & info records
-- Pricing schema configuration
-- Goods Receipt (MIGO)
+- Pricing conditions & schema logic
+- Goods Receipt (MIGO) & Inventory management
 - Invoice Verification (MIRO)
 
 ### 📊 Business Analysis & Requirements Mapping
-- Translating pain points into SAP solutions
-- BPMN-style process diagrams
-- Stakeholder requirement mapping
-- AS-IS vs TO-BE gap analysis
+- Translating business pain points into SAP MM solutions  
+- Process mapping (BPMN-style diagrams)  
+- Requirement gathering  
+- AS-IS vs TO-BE gap analysis  
 
 ### 🧪 Testing & Validation
-- Writing test scripts
-- Acceptance criteria definition
-- Scenario-based validation
+- Creating test scripts and acceptance criteria  
+- Validating configuration results  
+- Traceability (Requirements → Config → Test Case)  
 
 ### 🗂 Documentation & Project Delivery
-- Clean repository structure
-- Professional SAP documentation flow
-- Configuration notes & design decisions
+- Enterprise-level repository structure  
+- Design trade-offs documented professionally  
+- Realistic P2P process modelling  
 
 ---
 
-## 📘 Table of Contents
-
+## 📘 Table of Contents  
 1. [Overview](#1-overview)  
 2. [Business Context](#2-business-context)  
 3. [Repository Structure](#3-repository-structure)  
 4. [Documentation Links](#4-documentation-links)  
 5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
-6. [Future Enhancements](#6-future-enhancements)
+6. [Future Enhancements](#6-future-enhancements)  
 
 ---
 
 # 2. Business Context
 
-### 2.1 Company  
-**Log360 T/A Karukweza Ecofarm**
+## 2.1 Company  
+**Log360 T/A Karukweza EcoFarm**
 
-### 2.2 Industry  
+## 2.2 Industry  
 **Agriculture, farming, and logistics**
 
-### 2.3 Pain Points
+## 2.3 Pain Points
 - Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
-- No visibility of stock across locations
-- Frequent stockouts (feed, medicines)
+- No visibility of stock levels across storage locations
+- Repeated stockouts of critical inputs (feed, medicines)
 - No vendor performance tracking
-- Losses from poor inventory reconciliation
+- Inventory reconciliation issues leading to avoidable losses
 
-### 2.4 Project Goal
-Design a **scalable SAP MM P2P process** to improve procurement efficiency and eliminate operational bottlenecks.
+## 2.4 Project Goal
+To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency.
 
 ---
 
@@ -104,5 +104,3 @@ The repository is organised to clearly separate requirements, design decisions, 
  ┃ ┗ 📄 README.md          # Index of project documentation
  ┃
  ┗ 📄 README.md            # Main project documentation
-</details> ```
-
