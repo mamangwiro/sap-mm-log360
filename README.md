@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/Docs-Updated-critical?style=for-the-badge" />
 </p>
 
-
 # SAP MM Procure-to-Pay Project – Log360 Scenario
 
 ## 1. Overview
@@ -17,76 +16,83 @@ I designed and documented an end-to-end **Procure-to-Pay (P2P)** process for a f
 
 The focus is on:
 
-- Translating **business requirements** into an SAP MM design
-- Showing clear **configuration logic and trade-offs**
-- Defining **test scenarios** that a consultant or tester could execute in SAP
-- Documenting the **P2P flow**, from PR → PO → Goods Receipt → Invoice
+- Translating **business requirements** into an SAP MM design  
+- Showing clear **configuration logic and trade-offs**  
+- Defining **test scenarios** that a consultant or tester could execute in SAP  
+- Documenting the **P2P flow**, from PR → PO → Goods Receipt → Invoice  
 
 > ⚠️ **Note:** This is a documentation and design project. No SAP access is required to review, but the steps are written so they could be executed in SAP S/4HANA or ECC.
 
+---
+
 ## 🧠 Skills Demonstrated
 
-This project showcases a full SAP MM Functional Consultant skillset, including:
+This project showcases a full SAP MM Functional Consultant skillset.
 
 ### 🔧 SAP MM Configuration & Functional Skills
-- Material Master configuration (MM01/MM02)
-- Vendor Master setup (BP transaction)
-- Purchase Requisition → Purchase Order flow
-- Release strategy configuration
-- Source determination & info records
-- Pricing conditions & schema logic
-- Goods Receipt (MIGO) & Inventory management
-- Invoice Verification (MIRO)
+- Material Master configuration (MM01/MM02)  
+- Vendor Master setup (BP transaction)  
+- Purchase Requisition → Purchase Order flow  
+- Release strategy configuration  
+- Source determination & info records  
+- Pricing conditions & schema logic  
+- Goods Receipt (MIGO) & inventory management  
+- Invoice Verification (MIRO)  
 
 ### 📊 Business Analysis & Requirements Mapping
-- Translating business pain points into SAP MM solutions
-- Process mapping using BPMN-style flow diagrams
-- Stakeholder requirement gathering
-- Gap analysis between AS-IS and TO-BE processes
+- Translating business pain points into SAP MM solutions  
+- Process mapping using BPMN-style flow diagrams  
+- Stakeholder requirement gathering  
+- Gap analysis between AS-IS and TO-BE processes  
 
 ### 🧪 Testing & Validation
-- Creating detailed test scripts and acceptance criteria
-- Validating configuration outcomes through scenario testing
-- Ensuring traceability from requirements → config → test case
+- Creating detailed test scripts and acceptance criteria  
+- Validating configuration outcomes through scenario testing  
+- Ensuring traceability from requirements → config → test case  
 
 ### 🗂 Documentation & Project Delivery
-- Clear repository structure for professional documentation
-- Well-defined configuration notes and design decisions
-- Realistic P2P end-to-end case study modelling a real client
+- Clear repository structure for professional documentation  
+- Well-defined configuration notes and design decisions  
+- Realistic P2P end-to-end case study modelling a real SAP project  
 
+---
 
 ## 📘 Table of Contents  
 
 1. [Overview](#1-overview)  
 2. [Business Context](#2-business-context)  
-3. [Repository Structure](#3-repository-structure)  
+3. [Repository Structure](#3-📁-repository-structure)  
 4. [Documentation Links](#4-documentation-links)  
 5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
-6. [Future Enhancements](#6-future-enhancements)
+6. [Future Enhancements](#6-future-enhancements)  
+
+---
 
 ## 2. Business Context
 
-### 2.1 Company:** Log360 T/A Karukweza EcoFarm  
+### **2.1 Company**  
+**Log360 T/A Karukweza EcoFarm**
 
---
+### **2.2 Industry**  
+Agriculture, farming, and logistics
 
-### 2.2 Industry:** Agriculture, farming, and logistics  
+### **2.3 Pain Points**
+- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)  
+- No visibility of stock levels across storage locations  
+- Repeated stockouts of critical inputs (feed, medicines)  
+- No vendor performance tracking  
+- High losses due to poor inventory reconciliation  
 
-### 2.3  Pain Points:
-
-- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
-- No visibility of stock levels across storage locations
-- Repeated stockouts of critical inputs (feed, medicines)
-- No vendor performance tracking
-- High losses due to poor inventory reconciliation
-
-### 2.4  Project Goal
+### **2.4 Project Goal**
 
 To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency for Log360.
 
-## 3.📁 Repository Structure
+---
 
-The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM Procure-to-Pay (P2P) project.
+## 3. 📁 Repository Structure
+
+The repository is organised to clearly separate requirements, design, test cases, and diagrams for the SAP MM P2P Project.
+
 <details>
 <summary><strong>📁 Click to expand repository structure</strong></summary>
 
@@ -102,15 +108,3 @@ The repository is organised to clearly separate requirements, design, test cases
  ┃ ┗ 📄 README.md          # Index of project documentation
  ┃
  ┗ 📄 README.md            # Main project documentation
-
----
-## 4. Documentation Links
-
----
-
-## 5. How to Navigate This Project
-
----
-
-## 6. Future Enhancements
-
