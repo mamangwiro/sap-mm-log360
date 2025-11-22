@@ -92,6 +92,9 @@ The repository is organised to clearly separate requirements, design decisions, 
 <details>
 <summary><strong>📁 Click to expand repository structure</strong></summary>
 
+<details>
+<summary><strong>📁 Click to expand repository structure</strong></summary>
+
 ```md
 📦 sap-mm-log360/
  ┣ 📂 docs/
@@ -105,4 +108,26 @@ The repository is organised to clearly separate requirements, design decisions, 
  ┃
  ┗ 📄 README.md            # Main project documentation
 ```
+
 </details>
+
+
+## 4. 📚 Documentation Links
+
+The following documents support the SAP MM Procure-to-Pay (P2P) solution design and validation:
+
+### 🔧 Configuration & Design
+- [Design Trade-offs](docs/tradeoffs/design_tradeoffs.md)  
+  Explains key configuration decisions, options considered, and rationale.
+
+### 🧪 Testing
+- [P2P Test Cases](docs/tests/p2p_test_cases.md)  
+  Step-by-step test scenarios covering PR → PO → GR → MIRO.
+
+### 📊 Process Diagrams
+- [Process Diagrams Index](docs/diagrams/README.md)  
+  Visual BPMN-style process flows for the P2P cycle.
+
+### 📘 Documentation Index
+- [Documentation Overview](docs/README.md)  
+  Master index linking all project documentation.
