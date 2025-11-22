@@ -92,9 +92,6 @@ The repository is organised to clearly separate requirements, design decisions, 
 <details>
 <summary><strong>📁 Click to expand repository structure</strong></summary>
 
-<details>
-<summary><strong>📁 Click to expand repository structure</strong></summary>
-
 ```md
 📦 sap-mm-log360/
  ┣ 📂 docs/
