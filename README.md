@@ -67,20 +67,20 @@ The focus is on:
 
 ## 2. Business Context
 
-## 2.1 Company  
+### 2.1 Company  
 **Log360 T/A Karukweza EcoFarm**
 
-## 2.2 Industry  
+### 2.2 Industry  
 **Agriculture, farming, and logistics**
 
-## 2.3 Pain Points
+### 2.3 Pain Points
 - Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
 - No visibility of stock levels across storage locations
 - Repeated stockouts of critical inputs (feed, medicines)
 - No vendor performance tracking
 - Inventory reconciliation issues leading to avoidable losses
 
-## 2.4 Project Goal
+### 2.4 Project Goal
 To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency.
 
 ---
