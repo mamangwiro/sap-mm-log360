@@ -85,7 +85,7 @@ To design a **scalable SAP MM Procure-to-Pay process** that solves these operati
 
 ---
 
-# 3. 📁 Repository Structure
+## 3. 📁 Repository Structure
 
 The repository is organised to clearly separate requirements, design decisions, test cases, and diagrams.
 
