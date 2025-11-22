@@ -65,7 +65,7 @@ The focus is on:
 
 ---
 
-# 2. Business Context
+## 2. Business Context
 
 ## 2.1 Company  
 **Log360 T/A Karukweza EcoFarm**
