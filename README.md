@@ -111,23 +111,59 @@ The repository is organised to clearly separate requirements, design decisions, 
 
 </details>
 
+---
 
 ## 4. 📚 Documentation Links
 
 The following documents support the SAP MM Procure-to-Pay (P2P) solution design and validation:
 
-### 🔧 Configuration & Design
+### 🛠️ Configuration & Design
 - [Design Trade-offs](docs/tradeoffs/design_tradeoffs.md)  
-  Explains key configuration decisions, options considered, and rationale.
+  Key configuration decisions, alternatives, and rationale.
 
-### 🧪 Testing
+### ✅ Testing
 - [P2P Test Cases](docs/tests/p2p_test_cases.md)  
-  Step-by-step test scenarios covering PR → PO → GR → MIRO.
+  Step-by-step scenarios covering PR → PO → GR → MIRO.
 
-### 📊 Process Diagrams
+### 🖼️ Process Diagrams
 - [Process Diagrams Index](docs/diagrams/README.md)  
-  Visual BPMN-style process flows for the P2P cycle.
+  Visual BPMN-style diagrams for the full P2P cycle.
 
-### 📘 Documentation Index
+### 🗂 Documentation Index
 - [Documentation Overview](docs/README.md)  
   Master index linking all project documentation.
+
+---
+
+## 5. 🧭 How to Navigate This Project
+
+To get the most value from this repository:
+
+1. **Start with the Business Context**  
+   Understand the company's challenges and goals.
+
+2. **Review the Repository Structure**  
+   Familiarize yourself with how materials are organised.
+
+3. **Explore Configuration Decisions**  
+   Learn why specific SAP MM choices were made.
+
+4. **Walk Through the Process Diagrams**  
+   Visualise the end-to-end P2P flow.
+
+5. **Review Test Cases**  
+   Follow scenarios as if validating a real SAP build.
+
+---
+
+## 6. 🚀 Future Enhancements
+
+Planned improvements:
+
+- Add pricing schema configuration details
+- Include vendor evaluation & scorecard process
+- Add GR/IR reconciliation examples
+- Extend test scenarios (returns, credit memos)
+- Add SAP FI & Warehouse Management touchpoints
+
+---
