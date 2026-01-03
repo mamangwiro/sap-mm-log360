@@ -80,8 +80,7 @@ docs/
 ├── design_tradeoffs.md
 └── p2p_test_cases.md
 
-
-
+```
 Each document reflects a **deliverable you would expect in a real SAP project** (BBP / design / configuration / testing).
 
 ## 6. Key Documentation (Start Here)
