@@ -20,6 +20,14 @@ The project simulates a **real-world SAP MM implementation** for an agro-logisti
 > To demonstrate practical SAP MM capability in translating business requirements into system design, configuration decisions, and controlled end-to-end P2P execution.
 
 ---
+---
+
+## Who This Repository Is For
+
+This project is intended for:
+- SAP MM recruiters and hiring managers
+- Solution architects reviewing functional design capability
+- Consultants seeking structured Procure-to-Pay (P2P) reference material
 
 ## 2. Business Context
 
