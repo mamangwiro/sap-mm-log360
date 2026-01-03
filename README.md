@@ -3,164 +3,134 @@
   <img src="https://img.shields.io/badge/Focus-Procure%20to%20Pay%20(P2P)-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Role-SAP%20MM%20Functional%20Consultant-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Docs-Updated-critical?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docs-Updated-showcase?style=for-the-badge" />
 </p>
 
-# SAP MM Procure-to-Pay Project – Log360 Scenario
-
-## 1. Overview
-
-This project simulates a real-world **SAP MM Functional Consultant** assignment.
-
-I designed and documented an end-to-end **Procure-to-Pay (P2P)** process for a fictional agro-logistics company that procures farming inputs (e.g., pig feed, fertilizers, packaging) and manages stock across multiple locations.
-
-The focus is on:
-
-- Translating **business requirements** into an SAP MM design  
-- Showing clear **configuration logic and trade-offs**  
-- Defining **test scenarios** that a consultant or tester could execute in SAP  
-- Documenting the **P2P flow**, from PR → PO → Goods Receipt → Invoice  
-
-> ⚠️ **Note:** This is a documentation and design project. No SAP access is required to review, but the steps are written so they could be executed in SAP S/4HANA or ECC.
-
 ---
 
-## 🧠 Skills Demonstrated
+# SAP MM Procure-to-Pay (P2P) Project – Log360 Scenario
 
-### 🔧 SAP MM Configuration & Functional Skills
-- Material Master configuration (MM01/MM02)
-- Vendor Master setup (BP transaction)
-- Purchase Requisition → Purchase Order flow
-- Release strategy configuration
-- Source determination & info records
-- Pricing conditions & schema logic
-- Goods Receipt (MIGO) & Inventory management
-- Invoice Verification (MIRO)
+## 1. Executive Overview
 
-### 📊 Business Analysis & Requirements Mapping
-- Translating business pain points into SAP MM solutions  
-- Process mapping (BPMN-style diagrams)  
-- Requirement gathering  
-- AS-IS vs TO-BE gap analysis  
+This repository showcases an **end-to-end SAP MM Procure-to-Pay (P2P) solution** designed and documented from a **functional consultant / solution design perspective**.
 
-### 🧪 Testing & Validation
-- Creating test scripts and acceptance criteria  
-- Validating configuration results  
-- Traceability (Requirements → Config → Test Case)  
+The project simulates a **real-world SAP MM implementation** for an agro-logistics organisation operating across multiple locations, managing procurement, inventory, valuation, and vendor settlements.
 
-### 🗂 Documentation & Project Delivery
-- Enterprise-level repository structure  
-- Design trade-offs documented professionally  
-- Realistic P2P process modelling  
-
----
-
-## 📘 Table of Contents  
-1. [Overview](#1-overview)  
-2. [Business Context](#2-business-context)  
-3. [Repository Structure](#3-repository-structure)  
-4. [Documentation Links](#4-documentation-links)  
-5. [How to Navigate This Project](#5-how-to-navigate-this-project)  
-6. [Future Enhancements](#6-future-enhancements)  
+> 📌 **Purpose**:  
+> To demonstrate practical SAP MM capability in translating business requirements into system design, configuration decisions, and controlled end-to-end P2P execution.
 
 ---
 
 ## 2. Business Context
 
-### 2.1 Company  
-**Log360 T/A Karukweza EcoFarm**
+**Log360 (Scenario Company)** is a fictional but realistic agro-logistics enterprise that:
+- Procures farming inputs (feed, fertilizers, packaging)
+- Operates multiple storage locations
+- Manages vendor sourcing and pricing
+- Requires tight inventory, valuation, and invoice control
 
-### 2.2 Industry  
-**Agriculture, farming, and logistics**
-
-### 2.3 Pain Points
-- Unstructured purchasing (manual spreadsheets, calls, WhatsApp)
-- No visibility of stock levels across storage locations
-- Repeated stockouts of critical inputs (feed, medicines)
-- No vendor performance tracking
-- Inventory reconciliation issues leading to avoidable losses
-
-### 2.4 Project Goal
-To design a **scalable SAP MM Procure-to-Pay process** that solves these operational problems and improves procurement efficiency.
+The business objective is to implement a **controlled, auditable, and scalable Procure-to-Pay process** using SAP MM best practices.
 
 ---
 
-## 3. 📁 Repository Structure
+## 3. Scope of the P2P Solution
 
-The repository is organised to clearly separate requirements, design decisions, test cases, and diagrams.
+This project covers the full SAP MM P2P lifecycle:
 
-<details>
-<summary><strong>📁 Click to expand repository structure</strong></summary>
+- Business requirements analysis
+- Solution and process design
+- SAP MM configuration logic
+- Master data design
+- Procurement execution
+- Inventory management integration
+- Invoice verification alignment
+- Testing and validation
 
-```md
-📦 sap-mm-log360/
- ┣ 📂 docs/
- ┃ ┣ 📂 tradeoffs/
- ┃ ┃ ┗ 📄 design_tradeoffs.md
- ┃ ┣ 📂 tests/
- ┃ ┃ ┗ 📄 p2p_test_cases.md
- ┃ ┣ 📂 diagrams/
- ┃ ┃ ┗ 📄 README.md        # Lists & describes all P2P diagrams
- ┃ ┗ 📄 README.md          # Index of project documentation
- ┃
- ┗ 📄 README.md            # Main project documentation
-```
-
-</details>
+**Out of scope (by design):**
+- FI posting configuration (only integration touchpoints documented)
+- Custom ABAP development
 
 ---
 
-## 4. 📚 Documentation Links
+## 4. SAP MM Capabilities Demonstrated
 
-The following documents support the SAP MM Procure-to-Pay (P2P) solution design and validation:
+This repository demonstrates hands-on understanding of:
 
-### 🛠️ Configuration & Design
-- [Design Trade-offs](docs/tradeoffs/design_tradeoffs.md)  
-  Key configuration decisions, alternatives, and rationale.
-
-### ✅ Testing
-- [P2P Test Cases](docs/tests/p2p_test_cases.md)  
-  Step-by-step scenarios covering PR → PO → GR → MIRO.
-
-### 🖼️ Process Diagrams
-- [Process Diagrams Index](docs/diagrams/README.md)  
-  Visual BPMN-style diagrams for the full P2P cycle.
-
-### 🗂 Documentation Index
-- [Documentation Overview](docs/README.md)  
-  Master index linking all project documentation.
+- SAP MM organisational structure design
+- Procurement document flow (PR → PO → GR → IR)
+- Valuation and inventory impact
+- Account determination (conceptual)
+- Master data governance
+- Configuration trade-offs and design decisions
+- Business-aligned testing scenarios
 
 ---
 
-## 5. 🧭 How to Navigate This Project
+## 5. Repository Structure
 
-To get the most value from this repository:
+All project documentation is maintained in the `/docs` folder for clarity and traceability:
 
-1. **Start with the Business Context**  
-   Understand the company's challenges and goals.
+docs/
+├── 01_business_requirements.md
+├── 02_solution_design.md
+├── 03_configuration_steps.md
+├── 04_master_data_setup.md
+├── 05_test_scenarios.md
+├── design_tradeoffs.md
+└── p2p_test_cases.md
 
-2. **Review the Repository Structure**  
-   Familiarize yourself with how materials are organised.
 
-3. **Explore Configuration Decisions**  
-   Learn why specific SAP MM choices were made.
 
-4. **Walk Through the Process Diagrams**  
-   Visualise the end-to-end P2P flow.
-
-5. **Review Test Cases**  
-   Follow scenarios as if validating a real SAP build.
+Each document reflects a **deliverable you would expect in a real SAP project** (BBP / design / configuration / testing).
 
 ---
 
-## 6. 🚀 Future Enhancements
+## 6. How to Use This Repository
 
-Planned improvements:
+- Recruiters & hiring managers:  
+  Review the **Solution Design** and **Trade-offs** documents to understand architectural thinking.
 
-- Add pricing schema configuration details
-- Include vendor evaluation & scorecard process
-- Add GR/IR reconciliation examples
-- Extend test scenarios (returns, credit memos)
-- Add SAP FI & Warehouse Management touchpoints
+- SAP practitioners:  
+  Use the configuration and test documents as **reference-style material** for MM P2P flows.
+
+- Interview discussions:  
+  This repository can be used as a **walkthrough artifact** when discussing SAP MM experience.
 
 ---
+
+## 7. Professional Positioning
+
+This project is intentionally structured as a **role-focused portfolio**, reflecting how an SAP MM Functional Consultant or Solution Designer:
+
+- Approaches a business problem
+- Designs an SAP-aligned solution
+- Documents decisions and risks
+- Ensures testability and control
+
+It is not a tutorial — it is a **solution narrative**.
+
+---
+
+## 8. Status
+
+- 📌 Documentation: **Complete**
+- 📌 Structure: **Finalised**
+- 📌 Scope: **Stable**
+- 📌 Suitable for: **Portfolio, interviews, and professional showcase**
+
+---
+
+## 9. Author
+
+**Munyaradzi Mangwiro**  
+SAP MM Functional Consultant  
+Supply Chain & Logistics Specialist  
+
+📍 UK-based | Open to SAP MM / P2P-focused roles
+
+---
+
+> 🔗 This repository is shared as part of a professional SAP portfolio and is intended to demonstrate functional design capability rather than proprietary client implementations.
+
+
+
