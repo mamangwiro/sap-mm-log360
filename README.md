@@ -20,14 +20,46 @@ The project simulates a **real-world SAP MM implementation** for an agro-logisti
 > To demonstrate practical SAP MM capability in translating business requirements into system design, configuration decisions, and controlled end-to-end P2P execution.
 
 ---
----
-
 ## Who This Repository Is For
 
 This project is intended for:
 - SAP MM recruiters and hiring managers
 - Solution architects reviewing functional design capability
 - Consultants seeking structured Procure-to-Pay (P2P) reference material
+
+---
+---
+
+## How to Navigate This Repository
+
+This repository is structured to reflect a real SAP MM implementation lifecycle.  
+Reviewers can navigate the solution using the documents below, in logical sequence:
+
+1. **Business Requirements**  
+   Captures the business context, challenges, scope, and functional requirements driving the solution.  
+   📄 `docs/01_business_requirements.md`
+
+2. **Solution Design**  
+   Translates approved business requirements into SAP MM design decisions, principles, and process architecture.  
+   📄 `docs/02_solution_design.md`
+
+3. **Configuration Overview**  
+   Provides a consultant-level configuration blueprint aligned to standard SAP ECC 6.0 SPRO paths.  
+   📄 `docs/03_configuration_steps.md`
+
+4. **Master Data Design**  
+   Defines the master data objects, ownership, and governance required to support the P2P process.  
+   📄 `docs/04_master_data_setup.md`
+
+5. **Test Scenarios**  
+   Documents end-to-end business test cases validating procurement, inventory, and invoice verification flows.  
+   📄 `docs/05_test_scenario.md`
+
+6. **Design Trade-offs & Decisions**  
+   Explains key architectural choices, alternatives considered, and constraints influencing the final design.  
+   📄 `docs/design_tradeoffs.md`
+
+Each document is designed to stand alone while also forming part of a coherent, end-to-end solution narrative.
 
 ## 2. Business Context
 
