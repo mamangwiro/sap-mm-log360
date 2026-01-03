@@ -12,7 +12,7 @@
 
 ## 1. Executive Overview
 
-This repository showcases an **end-to-end SAP MM Procure-to-Pay (P2P) solution** designed and documented from a **functional consultant / solution design perspective**.
+This repository showcases an **end-to-end SAP MM Procure-to-Pay (P2P) solution** designed and documented from a **functional consultant and solution design perspective**.
 
 The project simulates a **real-world SAP MM implementation** for an agro-logistics organisation operating across multiple locations, managing procurement, inventory, valuation, and vendor settlements.
 
