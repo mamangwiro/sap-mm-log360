@@ -70,6 +70,7 @@ This repository demonstrates hands-on understanding of:
 
 All project documentation is maintained in the `/docs` folder for clarity and traceability:
 
+```text
 docs/
 ├── 01_business_requirements.md
 ├── 02_solution_design.md
@@ -83,9 +84,29 @@ docs/
 
 Each document reflects a **deliverable you would expect in a real SAP project** (BBP / design / configuration / testing).
 
+## 6. Key Documentation (Start Here)
+
+- 📘 Business Requirements  
+  [`01_business_requirements.md`](docs/01_business_requirements.md)
+
+- 🧠 Solution Design  
+  [`02_solution_design.md`](docs/02_solution_design.md)
+
+- ⚙️ Configuration Overview  
+  [`03_configuration_steps.md`](docs/03_configuration_steps.md)
+
+- 🗂️ Master Data Design  
+  [`04_master_data_setup.md`](docs/04_master_data_setup.md)
+
+- 🧪 Test Scenarios  
+  [`05_test_scenarios.md`](docs/05_test_scenarios.md)
+
+- 🔍 Design Tradeoffs  
+  [`design_tradeoffs.md`](docs/design_tradeoffs.md)
+
 ---
 
-## 6. How to Use This Repository
+## 7. How to Use This Repository
 
 - Recruiters & hiring managers:  
   Review the **Solution Design** and **Trade-offs** documents to understand architectural thinking.
@@ -98,7 +119,7 @@ Each document reflects a **deliverable you would expect in a real SAP project** 
 
 ---
 
-## 7. Professional Positioning
+## 8. Professional Positioning
 
 This project is intentionally structured as a **role-focused portfolio**, reflecting how an SAP MM Functional Consultant or Solution Designer:
 
@@ -111,7 +132,7 @@ It is not a tutorial — it is a **solution narrative**.
 
 ---
 
-## 8. Status
+## 9. Status
 
 - 📌 Documentation: **Complete**
 - 📌 Structure: **Finalised**
@@ -120,7 +141,7 @@ It is not a tutorial — it is a **solution narrative**.
 
 ---
 
-## 9. Author
+## 10. Author
 
 **Munyaradzi Mangwiro**  
 SAP MM Functional Consultant  
